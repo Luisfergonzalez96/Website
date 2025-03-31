@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lotes en El Paraíso - Venta de Terrenos en Costa Rica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">
+            <h1>Lotes en El Paraíso</h1>
+            <p>Compra tu terreno en el paraíso costarricense</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#propiedades">Propiedades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Cuerpo de la página -->
+    <section id="inicio" class="inicio">
+        <h2>Bienvenido a Lotes en El Paraíso</h2>
+        <p>Encuentra tu terreno ideal en el paraíso costarricense. Hermosas vistas y excelentes precios.</p>
+    </section>
+
+    <!-- Sección de Propiedades -->
+    <section id="propiedades" class="propiedades">
+        <h2>Propiedades Disponibles</h2>
+        <div class="propiedad">
+            <img src="lote1.jpg" alt="Lote en Costa Rica">
+            <div class="detalle-propiedad">
+                <p>Precio: $25,000</p>
+                <p>Ubicación: Guanacaste</p>
+                <a href="#contacto">Contáctanos para más información</a>
+            </div>
+        </div>
+
+        <div class="propiedad">
+            <img src="lote2.jpg" alt="Lote en Costa Rica">
+            <div class="detalle-propiedad">
+                <p>Precio: $30,000</p>
+                <p>Ubicación: Puntarenas</p>
+                <a href="#contacto">Contáctanos para más información</a>
+            </div>
+        </div>
+    </section>
+
+   <!-- Sección de Contacto -->
+<section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+    <form action="https://formspree.io/f/meoalwpv" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+</form>
+    <p>¿Prefieres contactarnos por WhatsApp?</p>
+    <a href="https://wa.me/50612345678" target="_blank" class="whatsapp-btn">
+        <i class="fab fa-whatsapp"></i> Enviar mensaje en WhatsApp
+    </a>
+</section>
+<section id="map">
+    <h2>Encuentra tu Lote en el Mapa</h2>
+    <div id="map"></div>
+</section>
+<section id="filtros">
+    <h2>Busca tu Terreno Ideal</h2>
+    <form>
+        <label for="ubicacion">Ubicación:</label>
+        <input type="text" id="ubicacion" name="ubicacion">
+        
+        <label for="precio">Precio Máximo:</label>
+        <input type="number" id="precio" name="precio">
+        
+        <label for="tamano">Tamaño del Lote (m²):</label>
+        <input type="number" id="tamano" name="tamano">
+        
+        <button type="submit">Buscar</button>
+    </form>
+</section>
+<section id="publicar">
+    <h2>Publica tu Lote</h2>
+    <form action="submit_lote.php" method="POST" enctype="multipart/form-data">
+        <label for="nombre">Nombre del Lote:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+        <label for="descripcion">Descripción:</label>
+        <textarea id="descripcion" name="descripcion" required></textarea>
+
+        <label for="precio">Precio:</label>
+        <input type="number" id="precio" name="precio" required>
+        
+        <label for="ubicacion">Ubicación:</label>
+        <input type="text" id="ubicacion" name="ubicacion" required>
+
+        <label for="imagen">Sube una Imagen:</label>
+        <input type="file" id="imagen" name="imagen" accept="image/*" required>
+        
+        <button type="submit">Publicar Lote</button>
+    </form>
+</section>
+<section id="articulos">
+    <h2>Guías y Recursos</h2>
+    <ul>
+        <li><a href="como-comprar-en-costa-rica.html">Cómo comprar un terreno en Costa Rica</a></li>
+        <li><a href="aspectos-legales.html">Aspectos legales en la compra de terrenos</a></li>
+        <li><a href="inversion-en-lotes.html">Cómo invertir en terrenos en la playa</a></li>
+    </ul>
+</section>
+<section id="blog" class="blog">
+    <h2>Blog sobre el Estilo de Vida Costarricense</h2>
+    <p>Descubre más sobre cómo es vivir en Costa Rica, las mejores zonas para comprar terrenos, y todo lo que necesitas saber para hacer de Costa Rica tu nuevo hogar o inversión.</p>
+    
+    <div class="articulos">
+        <article>
+            <h3><a href="vivir-en-costa-rica.html">Vivir en Costa Rica: El Estilo de Vida que Te Espera</a></h3>
+            <p>Costa Rica es conocida por su naturaleza, clima cálido, y la calidad de vida que ofrece. Descubre por qué es uno de los destinos más deseados para mudarse o invertir.</p>
+            <a href="vivir-en-costa-rica.html">Leer más...</a>
+        </article>
+
+        <article>
+            <h3><a href="mejores-zonas-para-comprar-terrenos.html">Las Mejores Zonas para Comprar Terrenos en Costa Rica</a></h3>
+            <p>Explora las zonas más populares para comprar propiedades en Costa Rica, desde la playa hasta la montaña. Aquí te contamos cuáles son las mejores para inversión.</p>
+            <a href="mejores-zonas-para-comprar-terrenos.html">Leer más...</a>
+        </article>
+
+        <article>
+            <h3><a href="beneficios-invertir-en-costa-rica.html">Beneficios de Invertir en Costa Rica</a></h3>
+            <p>Te contamos los motivos por los cuales invertir en Costa Rica es una excelente opción, desde la estabilidad política hasta el crecimiento del mercado inmobiliario.</p>
+            <a href="beneficios-invertir-en-costa-rica.html">Leer más...</a>
+        </article>
+    </div>
+</section>
+<!-- ejemplo de contenido de artículo -->
+<article id="vivir-en-costa-rica">
+    <h2>Vivir en Costa Rica: El Estilo de Vida que Te Espera</h2>
+    <p>Costa Rica es conocida por ser un paraíso tropical que ofrece una calidad de vida excepcional. Con su naturaleza exuberante, playas paradisíacas, y su gente cálida, es un lugar ideal para aquellos que buscan un estilo de vida relajado y rodeado de belleza natural. Además, el costo de vida es relativamente accesible en comparación con otros destinos internacionales.</p>
+    <p>Entre las actividades más populares se encuentran el surf, la pesca, el senderismo en sus numerosos parques nacionales, y la exploración de su biodiversidad única. Vivir en Costa Rica no solo es disfrutar de un clima cálido durante todo el año, sino también ser parte de una comunidad amigable y acogedora.</p>
+    <p>Si estás buscando mudarte, Costa Rica te ofrece un estilo de vida sin igual y muchas oportunidades para establecerte y disfrutar de su impresionante naturaleza.</p>
+</article>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

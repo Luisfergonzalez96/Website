@@ -1,0 +1,297 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2 {
+    color: #2a9d8f;
+}
+
+/* Encabezado */
+header {
+    background-color: #264653;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Sección de inicio */
+.inicio {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Sección de propiedades */
+.propiedades {
+    padding: 20px;
+    text-align: center;
+}
+
+.propiedad {
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.propiedad img {
+    width: 100%;
+    height: auto;
+}
+
+.detalle-propiedad {
+    padding: 15px;
+}
+
+.detalle-propiedad p {
+    font-size: 18px;
+}
+
+.detalle-propiedad a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #2a9d8f;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.detalle-propiedad a:hover {
+    background-color: #264653;
+}
+
+/* Sección de contacto */
+.contacto {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contacto form {
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contacto form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contacto form input, .contacto form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contacto form button {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contacto form button:hover {
+    background-color: #264653;
+}
+
+/* Pie de página */
+footer {
+    background-color: #264653;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.whatsapp-btn {
+    display: inline-block;
+    background-color: #25D366; /* Verde de WhatsApp */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.whatsapp-btn i {
+    margin-right: 10px;
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E; /* Verde oscuro de WhatsApp */
+}
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fondo claro */
+    color: #333;
+}
+
+h1, h2 {
+    color: #2a9d8f; /* Verde */
+}
+
+/* Colores del tema */
+.header {
+    background-color: #264653; /* Azul oscuro */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #8d6e63; /* Marrón */
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Botones */
+button {
+    background-color: #2a9d8f; /* Verde */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+}
+
+button:hover {
+    background-color: #264653; /* Azul oscuro */
+}
+
+/* Sección de propiedades */
+.propiedades {
+    padding: 40px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.propiedad {
+    display: inline-block;
+    width: 45%;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.propiedad img {
+    width: 100%;
+    height: auto;
+}
+
+/* Mapa Interactivo */
+#map {
+    height: 400px;
+    margin-top: 30px;
+}
+
+/* Testimonios */
+.testimonios {
+    background-color: #264653;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+ /* Estilos del Blog */
+.blog {
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+.blog h2 {
+    color: #264653; /* Azul oscuro */
+    text-align: center;
+    font-size: 32px;
+}
+
+.blog p {
+    color: #333;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.articulos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.articulo {
+    background-color: white;
+    width: 30%;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.articulo:hover {
+    transform: scale(1.05);
+}
+
+.articulo h3 {
+    font-size: 24px;
+    color: #2a9d8f; /* Verde */
+    margin-bottom: 10px;
+}
+
+.articulo p {
+    color: #555;
+    font-size: 16px;
+}
+
+.articulo a {
+    color: #264653; /* Azul oscuro */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.articulo a:hover {
+    text-decoration: underline;
+}
