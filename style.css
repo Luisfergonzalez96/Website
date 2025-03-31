@@ -389,3 +389,421 @@ textarea:focus {
     border-color: #2e7d32; /* Cambia el color del borde a verde cuando el campo está enfocado */
     outline: none; /* Quita el contorno predeterminado del navegador */
 }
+
+/* Estilos generales para el sitio */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para las secciones */
+section {
+    max-width: 800px; /* Limita el ancho máximo de las secciones */
+    width: 100%; /* Hace que la sección ocupe todo el ancho disponible */
+    background-color: #fff; /* Fondo blanco para las secciones */
+    padding: 20px; /* Espaciado interno de las secciones */
+    margin: 20px 0; /* Espacio entre las secciones */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+}
+
+/* Estilo para los títulos dentro de las secciones */
+section h2 {
+    color: #2e7d32; /* Color verde para los títulos */
+    font-size: 24px; /* Tamaño de fuente del título */
+    text-align: center; /* Centra el título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+/* Estilos para los formularios */
+form {
+    display: flex;
+    flex-direction: column; /* Organiza los campos en una columna */
+    gap: 15px; /* Espacio entre los campos del formulario */
+}
+
+label {
+    font-size: 16px; /* Tamaño de la fuente de los labels */
+    color: #333; /* Color del texto de los labels */
+}
+
+/* Estilos para los campos de formulario */
+input[type="text"],
+input[type="number"],
+textarea,
+input[type="file"] {
+    padding: 10px; /* Espaciado interno de los campos */
+    font-size: 16px; /* Tamaño de la fuente dentro de los campos */
+    border: 1px solid #ddd; /* Borde suave */
+    border-radius: 5px; /* Bordes redondeados en los campos */
+    width: 100%; /* Los campos ocupan todo el ancho disponible */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho de los campos */
+}
+
+textarea {
+    resize: vertical; /* Permite que el textarea se redimensione verticalmente */
+    min-height: 100px; /* Altura mínima del textarea */
+}
+
+/* Estilo para el botón */
+button {
+    padding: 10px 20px; /* Espaciado interno del botón */
+    background-color: #2e7d32; /* Color verde para el fondo */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Quita el borde predeterminado */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de la fuente del botón */
+    transition: background-color 0.3s ease; /* Efecto de transición para el color de fondo */
+}
+
+/* Efecto hover para el botón */
+button:hover {
+    background-color: #1b5e20; /* Oscurece el color del botón al pasar el ratón */
+}
+
+/* Estilo para los campos del formulario al enfocar (focus) */
+input:focus,
+textarea:focus {
+    border-color: #2e7d32; /* Cambia el color del borde a verde cuando el campo está enfocado */
+    outline: none; /* Quita el contorno predeterminado del navegador */
+}
+
+/* Estilo para el formulario de búsqueda (filtros) */
+#filtros {
+    width: 100%; /* Hace que ocupe todo el ancho disponible */
+    max-width: 700px; /* Máximo de 700px de ancho */
+    margin: 0 auto; /* Centra la sección de búsqueda */
+    padding: 20px;
+    background-color: #e0f7fa; /* Fondo azul suave para diferenciarlo */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo para el formulario de publicación */
+#publicar {
+    width: 100%;
+    max-width: 700px; /* Máximo de 700px de ancho */
+    margin: 0 auto; /* Centra la sección de publicación */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+/* Estilos generales para el sitio */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para las secciones */
+section {
+    max-width: 800px; /* Limita el ancho máximo de las secciones */
+    width: 100%; /* Hace que la sección ocupe todo el ancho disponible */
+    padding: 20px; /* Espaciado interno de las secciones */
+    margin: 20px 0; /* Espacio entre las secciones */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+}
+
+/* Estilo para los títulos dentro de las secciones */
+section h2 {
+    color: #2e7d32; /* Color verde para los títulos */
+    font-size: 24px; /* Tamaño de fuente del título */
+    text-align: center; /* Centra el título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+/* Estilos para los formularios */
+form {
+    display: flex;
+    flex-direction: column; /* Organiza los campos en una columna */
+    gap: 15px; /* Espacio entre los campos del formulario */
+}
+
+label {
+    font-size: 16px; /* Tamaño de la fuente de los labels */
+    color: #333; /* Color del texto de los labels */
+}
+
+/* Estilos para los campos de formulario */
+input[type="text"],
+input[type="number"],
+textarea,
+input[type="file"] {
+    padding: 10px; /* Espaciado interno de los campos */
+    font-size: 16px; /* Tamaño de la fuente dentro de los campos */
+    border: 1px solid #ddd; /* Borde suave */
+    border-radius: 5px; /* Bordes redondeados en los campos */
+    width: 100%; /* Los campos ocupan todo el ancho disponible */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho de los campos */
+}
+
+textarea {
+    resize: vertical; /* Permite que el textarea se redimensione verticalmente */
+    min-height: 100px; /* Altura mínima del textarea */
+}
+
+/* Estilo para el botón */
+button {
+    padding: 10px 20px; /* Espaciado interno del botón */
+    background-color: #2e7d32; /* Color verde para el fondo */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Quita el borde predeterminado */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de la fuente del botón */
+    transition: background-color 0.3s ease; /* Efecto de transición para el color de fondo */
+}
+
+/* Efecto hover para el botón */
+button:hover {
+    background-color: #1b5e20; /* Oscurece el color del botón al pasar el ratón */
+}
+
+/* Estilo para los campos del formulario al enfocar (focus) */
+input:focus,
+textarea:focus {
+    border-color: #2e7d32; /* Cambia el color del borde a verde cuando el campo está enfocado */
+    outline: none; /* Quita el contorno predeterminado del navegador */
+}
+
+/* Estilo para el formulario de búsqueda (filtros) */
+#filtros {
+    width: 100%; /* Hace que ocupe todo el ancho disponible */
+    max-width: 700px; /* Máximo de 700px de ancho */
+    margin: 0 auto; /* Centra la sección de búsqueda */
+    padding: 20px;
+    background-color: #b2ebf2; /* Fondo turquesa claro para diferenciarlo */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo para el formulario de publicación */
+#publicar {
+    width: 100%;
+    max-width: 700px; /* Máximo de 700px de ancho */
+    margin: 0 auto; /* Centra la sección de publicación */
+    padding: 20px;
+    background-color: #e3f2fd; /* Fondo azul suave para complementar el color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+/* Estilos generales para el sitio */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para las secciones */
+section {
+    max-width: 800px; /* Limita el ancho máximo de las secciones */
+    width: 100%; /* Hace que la sección ocupe todo el ancho disponible */
+    padding: 20px; /* Espaciado interno de las secciones */
+    margin: 20px 0; /* Espacio entre las secciones */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+}
+
+/* Estilo para los títulos dentro de las secciones */
+section h2 {
+    color: #2e7d32; /* Color verde para los títulos */
+    font-size: 24px; /* Tamaño de fuente del título */
+    text-align: center; /* Centra el título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+/* Estilos para los formularios */
+form {
+    display: flex;
+    flex-direction: column; /* Organiza los campos en una columna */
+    gap: 15px; /* Espacio entre los campos del formulario */
+}
+
+label {
+    font-size: 16px; /* Tamaño de la fuente de los labels */
+    color: #333; /* Color del texto de los labels */
+}
+
+/* Estilos para los campos de formulario */
+input[type="text"],
+input[type="number"],
+textarea,
+input[type="file"] {
+    padding: 10px; /* Espaciado interno de los campos */
+    font-size: 16px; /* Tamaño de la fuente dentro de los campos */
+    border: 1px solid #ddd; /* Borde suave */
+    border-radius: 5px; /* Bordes redondeados en los campos */
+    width: 100%; /* Los campos ocupan todo el ancho disponible */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho de los campos */
+}
+
+textarea {
+    resize: vertical; /* Permite que el textarea se redimensione verticalmente */
+    min-height: 100px; /* Altura mínima del textarea */
+}
+
+/* Estilo para el botón */
+button {
+    padding: 10px 20px; /* Espaciado interno del botón */
+    background-color: #2e7d32; /* Color verde para el fondo */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Quita el borde predeterminado */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de la fuente del botón */
+    transition: background-color 0.3s ease; /* Efecto de transición para el color de fondo */
+}
+
+/* Efecto hover para el botón */
+button:hover {
+    background-color: #1b5e20; /* Oscurece el color del botón al pasar el ratón */
+}
+
+/* Estilo para los campos del formulario al enfocar (focus) */
+input:focus,
+textarea:focus {
+    border-color: #2e7d32; /* Cambia el color del borde a verde cuando el campo está enfocado */
+    outline: none; /* Quita el contorno predeterminado del navegador */
+}
+
+/* Estilo para el formulario de búsqueda (filtros) */
+#filtros {
+    width: 100%; /* Hace que ocupe todo el ancho disponible */
+    max-width: 700px; /* Máximo de 700px de ancho */
+    margin: 0 auto; /* Centra la sección de búsqueda */
+    padding: 20px;
+    background-color: #b2ebf2; /* Fondo turquesa claro para diferenciarlo */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo para el formulario de publicación */
+#publicar {
+    width: 100%;
+    max-width: 700px; /* Máximo de 700px de ancho */
+    margin: 0 auto; /* Centra la sección de publicación */
+    padding: 20px;
+    background-color: #e3f2fd; /* Fondo azul suave para complementar el color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+/* Estilos generales para el sitio */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para las secciones */
+section {
+    max-width: 800px; /* Limita el ancho máximo de las secciones */
+    width: 100%; /* Hace que la sección ocupe todo el ancho disponible */
+    padding: 20px; /* Espaciado interno de las secciones */
+    margin: 20px 0; /* Espacio entre las secciones */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+}
+
+/* Estilo para los títulos dentro de las secciones */
+section h2 {
+    color: #2e7d32; /* Color verde para los títulos */
+    font-size: 24px; /* Tamaño de fuente del título */
+    text-align: center; /* Centra el título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+/* Estilos para los formularios */
+form {
+    display: flex;
+    flex-direction: column; /* Organiza los campos en una columna */
+    gap: 15px; /* Espacio entre los campos del formulario */
+}
+
+label {
+    font-size: 16px; /* Tamaño de la fuente de los labels */
+    color: #333; /* Color del texto de los labels */
+}
+
+/* Estilos para los campos de formulario */
+input[type="text"],
+input[type="number"],
+textarea,
+input[type="file"] {
+    padding: 10px; /* Espaciado interno de los campos */
+    font-size: 16px; /* Tamaño de la fuente dentro de los campos */
+    border: 1px solid #ddd; /* Borde suave */
+    border-radius: 5px; /* Bordes redondeados en los campos */
+    width: 100%; /* Los campos ocupan todo el ancho disponible */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho de los campos */
+}
+
+textarea {
+    resize: vertical; /* Permite que el textarea se redimensione verticalmente */
+    min-height: 100px; /* Altura mínima del textarea */
+}
+
+/* Estilo para el botón */
+button {
+    padding: 10px 20px; /* Espaciado interno del botón */
+    background-color: #2e7d32; /* Color verde para el fondo */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Quita el borde predeterminado */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de la fuente del botón */
+    transition: background-color 0.3s ease; /* Efecto de transición para el color de fondo */
+}
+
+/* Efecto hover para el botón */
+button:hover {
+    background-color: #1b5e20; /* Oscurece el color del botón al pasar el ratón */
+}
+
+/* Estilo para los campos del formulario al enfocar (focus) */
+input:focus,
+textarea:focus {
+    border-color: #2e7d32; /* Cambia el color del borde a verde cuando el campo está enfocado */
+    outline: none; /* Quita el contorno predeterminado del navegador */
+}
+
+/* Estilo para el formulario de búsqueda (filtros) */
+#filtros {
+    width: 100%; /* Hace que ocupe todo el ancho disponible */
+    max-width: 700px; /* Máximo de 700px de ancho */
+    margin: 0 auto; /* Centra la sección de búsqueda */
+    padding: 20px;
+    background-color: #b2ebf2; /* Fondo turquesa claro para diferenciarlo */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo para el formulario de publicación */
+#publicar {
+    width: 100%;
+    max-width: 700px; /* Máximo de 700px de ancho */
+    margin: 0 auto; /* Centra la sección de publicación */
+    padding: 20px;
+    background-color: #e3f2fd; /* Fondo azul suave para complementar el color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
